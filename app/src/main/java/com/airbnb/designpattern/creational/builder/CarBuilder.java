@@ -5,6 +5,7 @@ public class CarBuilder implements AbstractBuilder {
   private int seats;
   private boolean useGasEngine;
   private int gpsVersion;
+  private int isHybrid;
 
   @Override
   public void reset() {
